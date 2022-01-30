@@ -1,0 +1,28 @@
+body {background-color: lightslategrey;
+      background-image: url(picture.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: left top;
+      position: absolute; top: 0; left: 0; border: 0;}
+      
+::selection {
+  color: #fff;
+  background: #FF5E99;
+  text-shadow: none;
+}
+
+button{
+      margin-left:0.25cm;
+      margin-right:0.25cm;
+      margin-top:0.25cm;
+      margin-bottom:0.25cm;
+      width: 2cm;
+      height: 0.75cm;
+}
+
+input{
+      margin-left:0.25cm;
+      margin-right:0.25cm;
+      margin-top:0.25cm;
+      margin-bottom:0.25cm;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE htlm>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+        <meta charset="UTF-8">
+
+        <title>api</title>
+    </head>
+
+
+    <body>
+
+        <h2>Mr. or Ms. ?</h2>
+
+        <form action="https://api.genderize.io" method="get">
+            Name:
+            <input type="text" name="name" value="" size="20" maxlength="255" />
+        </form>
+
+
+        <form action="http://httpbin.org/get" method="get">
+              <input type="radio" name="name" value="male" /> Male <br />
+              <input type="radio" name="name" value="female" /> Female <br />
+              <button type="submit">submit</button> <br />
+              <button type="button">save</button> <br />
+        </form>
+
+    </body>
+
+</htlm>
